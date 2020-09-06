@@ -14,7 +14,7 @@ function App() {
           This will produce: %wow such words%
         </pre>
         <div className="border-t-2 border-solid border-black"></div>
-        <SearchField />
+        <SearchField url="http://localhost:4000/actors/basic" />
       </div>
       <div className="rounded border-1 border-gray-600 w-1/3 max-w-1/3 h-screen bg-gray-300 mr-4 ml-4 flex flex-col justify-center items-center">
         <div className="mb-4">
@@ -24,7 +24,7 @@ function App() {
         <pre className="mb-4">
           This will produce: %wow%such%words%
         </pre>
-        <SearchField />
+        <SearchField url="http://localhost:4000/actors/mid" />
       </div>
       <div className="rounded border-1 border-gray-600 w-1/3 max-w-1/3 h-screen bg-green-300 mr-4 ml-4 flex flex-col justify-center items-center">
         <div className="mb-4">
@@ -34,7 +34,7 @@ function App() {
         <pre className="mb-4">
           This will produce: [' w', 'wow', 'ow ',... ]
         </pre>
-        <SearchField />
+        <SearchField url="http://localhost:4000/actors/fuzzy" />
       </div>
     </div>
   );
